@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Feature Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNg different Feature topics(failed)">
+    <classes>
+      <class name="testNGProgram.TestNGProgram1">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyActiTimeHomePageLogo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testNGProgram.TestNGProgram1 -->
+      <class name="testNGProgram.TestNGProgram2">
+        <methods>
+          <include name="verifyActiTimeHomePageTasksTab"/>
+          <include name="verifyActiTimeHomePageLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testNGProgram.TestNGProgram2 -->
+    </classes>
+  </test> <!-- TestNg different Feature topics(failed) -->
+</suite> <!-- Failed suite [TestNg Feature Test] -->

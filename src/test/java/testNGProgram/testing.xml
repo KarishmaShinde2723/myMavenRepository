@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Feature Test" >
+  <test name = "TestNg different Feature topics">
+    <classes>
+      
+       <class name= "testNGProgram.TestNGAnnotation"/>
+      <class name= "testNGProgram.TestNGProgram1"/>
+      <class name= "testNGProgram.TestNGProgram2"/>
+      
+    </classes>
+  </test> 
+</suite>

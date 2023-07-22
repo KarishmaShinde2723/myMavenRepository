@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Group Feature Test" >
+  <test name = "TestNg Group Feature topics">
+  
+  <groups>
+    <run>
+      <include name="ABC"></include>
+    </run>
+  </groups>
+  
+    <classes>
+       <class name= "testNGKeyWords.GroupsKeyword"/>
+    </classes>
+  </test> 
+</suite>
